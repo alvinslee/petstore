@@ -1,0 +1,21 @@
+_id: updateUser
+type: Request
+parentId: fld_wrk_2b9a39b8da804d639af39755ed3f79d912dea96f
+modified: 1629513030794
+created: 1629513030794
+url: "{{ base_url }}/user/{{ username }}"
+name: Updated user
+description: This can only be done by the logged in user.
+method: PUT
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1629513030794
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

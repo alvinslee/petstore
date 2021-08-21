@@ -1,0 +1,22 @@
+_id: deleteOrder
+type: Request
+parentId: fld_wrk_2b9a39b8da804d639af39755ed3f79d93a21295d
+modified: 1629513030798
+created: 1629513030798
+url: "{{ base_url }}/store/order/{{ orderId }}"
+name: Delete purchase order by ID
+description: For valid response try integer IDs with positive integer
+  value.         Negative or non-integer values will generate API errors
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1629513030798
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
